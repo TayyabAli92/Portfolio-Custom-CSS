@@ -1,0 +1,137 @@
+.project-box {
+    background-color: #383636;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+.main-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.project-item {
+    width: 290px;
+    background-color: #242222;
+    box-shadow: 0 4px 20px wheat;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-image {
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(207, 199, 199, 0.1);
+}
+
+.project-item h3 {
+    font-size: 1.4em;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.project-item p {
+    font-size: 0.95em;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.project-item button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.project-item button:hover {
+    background-color: #0056b3;
+}
+
+.project-item button a {
+    color: #eeecec;
+    text-decoration: none;
+}
+
+.project-item button a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+.project-item {
+    opacity: 0;
+    animation: fadeInUp 0.6s ease-out forwards; 
+}
+
+.project-item:nth-child(1) {
+    animation-delay: 0.2s; 
+}
+
+.project-item:nth-child(2) {
+    animation-delay: 0.4s; 
+}
+
+.project-item:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@media (max-width: 768px) {
+    .project-item {
+        width: 100%; 
+        max-width: 300px; 
+    }
+
+    .main-div {
+        gap: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .project-item {
+        padding: 15px;
+    }
+
+    .project-item h3 {
+        font-size: 1.2em; 
+    }
+
+    .project-item p {
+        font-size: 0.85em; 
+    }
+
+    .project-item button {
+        padding: 8px 15px; 
+        font-size: 0.8em;
+    }
+}
