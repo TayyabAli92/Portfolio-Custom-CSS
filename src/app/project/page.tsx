@@ -9,7 +9,7 @@ export default function Project() {
       <div className="main-div">
         <div className="project-item">
           <Image
-            src="/countdown-timer.png"
+            src="/countdown-timer.PNG"
             alt="Portfolio Item Image"
             width={300}
             height={250}
@@ -57,7 +57,7 @@ export default function Project() {
 
         <div className="project-item">
           <Image
-            src="/todo-list.png"
+            src="/todo-list.PNG"
             alt="Portfolio Item Image"
             width={300}
             height={250}
