@@ -37,7 +37,7 @@ export default function Contact() {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/tayyab-ali-personal-86a3582b8/"
+            href="https://www.linkedin.com/in/muhammad-tayyab-ali-121133339/"
             target="_blank"
             rel="noopener noreferrer"
             className="link-item"
