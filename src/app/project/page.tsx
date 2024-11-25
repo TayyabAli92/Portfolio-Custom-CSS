@@ -90,8 +90,7 @@ export default function Project() {
 
           <h3>Digital Clock</h3>
           <p>
-            A task management application built with React and TypeScript,
-            designed for efficient organization and productivity.
+          A digital clock is a contemporary device designed to measure and display time in a numerical format.
           </p>
           <button type="button">
             <a
@@ -114,8 +113,7 @@ export default function Project() {
 
           <h3>Calculator</h3>
           <p>
-            A task management application built with React and TypeScript,
-            designed for efficient organization and productivity.
+          A calculator is a compact device used for performing mathematical calculations.
           </p>
           <button type="button">
             <a
