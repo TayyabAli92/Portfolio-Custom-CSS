@@ -124,6 +124,98 @@ export default function Project() {
             </a>
           </button>
         </div>
+
+        <div className="project-item">
+          <Image
+            src="/birthday.PNG"
+            alt="Birthday Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+
+          <h3>Birthday Wishes</h3>
+          <p>
+          On this special day, I wish you all the joy, laughter, and love that life can bring.
+          </p>
+          <button type="button">
+            <a
+              href="https://next-js-birthday-wishes.vercel.app/"
+              target="_blank"
+            >
+              View Birthday
+            </a>
+          </button>
+        </div>
+
+        <div className="project-item">
+          <Image
+            src="/color-picker.PNG"
+            alt="Picker Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+
+          <h3>Color Picker</h3>
+          <p>
+          This interactive tool allows you to select colors effortlessly. Here’s how it works:
+          </p>
+          <button type="button">
+            <a
+              href="https://next-js-color-picker.vercel.app/"
+              target="_blank"
+            >
+              View Color Picker
+            </a>
+          </button>
+        </div>
+
+        <div className="project-item">
+          <Image
+            src="/number-guessing.PNG"
+            alt="Number Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+
+          <h3>Number Geussing</h3>
+          <p>
+          I am thinking of a number between 1 and 10. Your goal is to guess it.
+          </p>
+          <button type="button">
+            <a
+              href="https://next-js-number-guessing-game.vercel.app/"
+              target="_blank"
+            >
+              View Number Guessing
+            </a>
+          </button>
+        </div>
+
+        <div className="project-item">
+          <Image
+            src="/random-joke.PNG"
+            alt="Random Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+
+          <h3>Random Joke</h3>
+          <p>
+          Hope that brought a smile to your face! Want to hear another one?
+          </p>
+          <button type="button">
+            <a
+              href="https://next-js-random-joke-generator-sigma.vercel.app/"
+              target="_blank"
+            >
+              View Joke
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
