@@ -26,7 +26,7 @@ export default function Project() {
               href="https://count-down-timer-beryl.vercel.app/"
               target="_blank"
             >
-              View Timer
+              View Project
             </a>
           </button>
         </div>
@@ -50,7 +50,7 @@ export default function Project() {
               href="https://static-interactive-resume-builder-kpbu.vercel.app/"
               target="_blank"
             >
-              View Resume
+              View Project
             </a>
           </button>
         </div>
@@ -74,7 +74,7 @@ export default function Project() {
               href="https://todo-list-chi-lovat.vercel.app/?vercelToolbarCode=kH2-UXAi21lRa2p"
               target="_blank"
             >
-              View List
+              View Project
             </a>
           </button>
         </div>
@@ -97,7 +97,7 @@ export default function Project() {
               href="https://next-js-digital-clock-two.vercel.app/"
               target="_blank"
             >
-              View Clock
+              View Project
             </a>
           </button>
         </div>
@@ -120,7 +120,7 @@ export default function Project() {
               href="https://next-js-simple-calculator.vercel.app/"
               target="_blank"
             >
-              View Calculator
+              View Project
             </a>
           </button>
         </div>
@@ -143,7 +143,7 @@ export default function Project() {
               href="https://next-js-birthday-wishes.vercel.app/"
               target="_blank"
             >
-              View Birthday
+              View Project
             </a>
           </button>
         </div>
@@ -166,7 +166,7 @@ export default function Project() {
               href="https://next-js-color-picker.vercel.app/"
               target="_blank"
             >
-              View Color Picker
+              View Project
             </a>
           </button>
         </div>
@@ -189,7 +189,7 @@ export default function Project() {
               href="https://next-js-number-guessing-game.vercel.app/"
               target="_blank"
             >
-              View Number Guessing
+              View Project
             </a>
           </button>
         </div>
@@ -212,7 +212,76 @@ export default function Project() {
               href="https://next-js-random-joke-generator-sigma.vercel.app/"
               target="_blank"
             >
-              View Joke
+              View Project
+            </a>
+          </button>
+        </div>
+
+        <div className="project-item">
+          <Image
+            src="/bmi-calculator.PNG"
+            alt="BMI Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+
+          <h3>BMI Calculator</h3>
+          <p>
+          Hope that made you smile! 😊 Ready to check your BMI Calculator? Let’s see where you stand.
+          </p>
+          <button type="button">
+            <a
+              href="https://next-js-bmi-calculator.vercel.app/"
+              target="_blank"
+            >
+              View Project
+            </a>
+          </button>
+        </div>
+
+        <div className="project-item">
+          <Image
+            src="/generator.PNG"
+            alt="Generator Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+
+          <h3>Password Generator</h3>
+          <p>
+          Your online security starts with a strong password. Let’s generate one that’s both secure and easy to remember
+          </p>
+          <button type="button">
+            <a
+              href="https://next-js-password-generator.vercel.app/"
+              target="_blank"
+            >
+              View Project
+            </a>
+          </button>
+        </div>
+
+        <div className="project-item">
+          <Image
+            src="/tip-calculator.PNG"
+            alt="Tip Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+
+          <h3>Tip Calculator</h3>
+          <p>
+          Imagine you're at a restaurant, ready to leave a tip. Let’s calculate the perfect amount to show your appreciation
+          </p>
+          <button type="button">
+            <a
+              href="https://next-js-tip-calculator-seven.vercel.app/"
+              target="_blank"
+            >
+              View Project
             </a>
           </button>
         </div>
