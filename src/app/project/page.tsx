@@ -282,7 +282,7 @@ export default function Project() {
               target="_blank"
             >
               View Project
-            </a>
+            </a>     
           </button>
         </div>
       </div>
